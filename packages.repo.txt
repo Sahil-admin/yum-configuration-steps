@@ -1,0 +1,13 @@
+--------file packages.repo--------
+
+[AppStream]
+name=AppStream
+baseurl=file:///mnt/AppStream
+enabled=1
+gpgchecck=0
+
+[BaseOS]
+name=BaseOS
+baseurl=file:///mnt/BaseOS
+enabled=0
+gpgcheck=0
